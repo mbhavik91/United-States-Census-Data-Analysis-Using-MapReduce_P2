@@ -1,0 +1,25 @@
+=========================================================================================
+					Assignment 3
+Name: Bhavik Mistry
+=========================================================================================
+
+
+My first MapReduce provides output to first 6 Questions. For Question 7 and 8 it will generate the output.
+For the last two question it will make use of the first MapReduce's output and will again run MapReduce to generate the actual output.
+
+Input:
+$HADOOP_HOME/bin/hadoop jar workspace/CS455Part2/dist/part2.jar cs455.hadoop.part2.MyMain /data/census /home/myOutput
+
+Then you need to check "myOutput" directory for questions 1-6.
+For Questions 7-8, new directory will be generated known as "mOutput_lastTwoQuestions".
+
+I have created custom data type to read the data in only one pass.
+
+I have checked, my program works correctly and generates output correctly.
+
+My main class name is MyMain. My jar file name is part2.jar.
+
+Thanks,
+Bhavik Mistry.
+
+
