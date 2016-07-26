@@ -23,10 +23,7 @@ public class MyMain {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-
-		// TODO Auto-generated method stub
-		try {
+	try {
 
             Configuration conf = new Configuration();
             // Give the MapRed job a name. You'll see this name in the Yarn webapp.
