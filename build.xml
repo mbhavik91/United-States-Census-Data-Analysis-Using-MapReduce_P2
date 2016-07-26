@@ -9,7 +9,7 @@
   <property name="lib.dir" location="/usr/local/hadoop-2.6.0/share/hadoop" />
 
   <target name="init">
-    <!-- Create the time stamp -->
+    <!-- Create the time stampp -->
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
     <mkdir dir="${build}"/>
