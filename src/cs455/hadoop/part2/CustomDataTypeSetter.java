@@ -6,7 +6,7 @@ package cs455.hadoop.part2;
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
-
+//
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
